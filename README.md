@@ -6,5 +6,7 @@ En este repositorio colocaremos todo el codigo fuente de las entregas de este cu
 Integrantes:
 
 Juan Diego Botiva
-Omar CamiloContreras
+
+Omar Camilo Contreras
+
 Nicolas Bonet
