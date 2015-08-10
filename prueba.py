@@ -7,7 +7,7 @@ x=len(index)
 for fname in index:
     while x>0:
         x=x-1
-        index[x] = '<a href="./' + index[x].replace("jpg", "html") + '">' + '<img src="./Thumbs/' + index[x] + '" />' + '</a>'
+        index[x] = '<a href="./Images/' + index[x] + '">' + '<img src="./Images/' + index[x] + '" />' + '</a>'
 
 listString='\n'.join(index)
 
