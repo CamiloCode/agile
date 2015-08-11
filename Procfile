@@ -1,1 +1,1 @@
-web: gunicorn polls.wsgi
+web: gunicorn agile.wsgi
