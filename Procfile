@@ -1,1 +1,1 @@
-web: gunicorn agile:app --log-file -
+web: gunicorn agile.polls:app --log-file -
