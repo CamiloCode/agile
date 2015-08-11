@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/NicolasBonet/agile.git/!svn/ver/8/branches/camilo/gallery/gallery
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/NicolasBonet/agile.git/!svn/ver/8/branches/camilo/gallery/gallery/wsgi.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/NicolasBonet/agile.git/!svn/ver/8/branches/camilo/gallery/gallery/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/NicolasBonet/agile.git/!svn/ver/8/branches/camilo/gallery/gallery/settings.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/NicolasBonet/agile.git/!svn/ver/8/branches/camilo/gallery/gallery/urls.py
+END

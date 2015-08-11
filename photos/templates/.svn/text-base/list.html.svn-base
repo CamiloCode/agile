@@ -1,0 +1,39 @@
+{% include "header.html" %}
+{% block content %}
+
+    <div class="main">
+
+    	<h3>Galeria</h3>
+    	
+        <!-- Imagenes  -->
+        <ul>
+            {% for img in images.object_list %}
+                <a href="{{ img.imagen }}">
+                	<img border="0" alt="" src="{{ img.imagen }}" />
+                </a>
+            {% endfor %}
+        </ul>
+
+        <!-- Next/Prev page links  -->
+        {% if images.object_list and images.paginator.num_pages > 1 %}
+        <div class="pagination">
+            <span class="step-links">
+                {% if images.has_previous %}
+                    <a href= "?page={{ images.previous_page_number }}">anterior &lt;&lt; </a>
+                {% endif %}
+
+                <span class="current">
+                    &nbsp;Pagina {{ images.number }} de {{ images.paginator.num_pages }}
+                </span>
+
+                {% if images.has_next %}
+                    <a href="?page={{ images.next_page_number }}"> &gt;&gt; siguiente</a>
+                {% endif %}
+            </span>
+        </div>
+        {% endif %}
+
+    </div>
+
+{% endblock %}
+{% include "footer.html" %}
