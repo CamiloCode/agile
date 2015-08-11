@@ -99,8 +99,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-
 STATIC_URL = '/static/'
+STATIC_ROOT = "/Users/mac/Dropbox/Universidad/2015-2/Procesos Agiles/agile repo/static"
 
 # Nuestra app de Photos
 MEDIA_ROOT = '/Users/mac/Dropbox/Universidad/2015-2/Procesos Agiles/django/gallery/photos/media'

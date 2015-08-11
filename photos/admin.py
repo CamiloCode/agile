@@ -1,13 +1,12 @@
 from string import join
 
 import os
-from PIL import Image as PImage
 from settings import MEDIA_ROOT
 from photos.models import models
 from django.contrib import admin
 
+# Esto nos permite manipular el listado a mostrar para los admins
 class ImageAdmin(admin.ModelAdmin):
-    # search_fields = ["title"]
     list_display = ["titulo", "usuario", "descripcion", "imagen"]
     list_filter = ["usuario"]
 
