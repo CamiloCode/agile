@@ -1,1 +1,1 @@
-web: gunicorn agile.wsgi
+web: gunicorn polls:app --log-file -
